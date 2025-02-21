@@ -5,17 +5,22 @@ This project analyzes Magist’s database to determine whether Eniac should part
 
 ## Dataset  
 - **Source:** Magist's database (provided as a SQL dump)  
-- **Key Tables:** Order management, shipment data, customer service interactions  
+- **Key Tables:** Orders, products, sellers, shipments, payments  
 
 ## Tools & Methods  
 - **SQL (MySQL Workbench)** – Data import, cleaning, and exploration  
 - **Tableau** – Data visualization for insights and business recommendations  
 - **Python (optional)** – Additional analysis and visualizations  
 
-## Key Analyses  
-- Market trends and competitors in Brazil  
-- Delivery performance and efficiency  
-- Product-market fit for Eniac’s tech accessories  
+## Data Exploration & Business Insights  
+To assess Magist’s suitability for Eniac, structured data exploration was conducted, focusing on key business concerns:  
+
+- **Orders & Growth**: Analyzed total orders, delivery status, and user growth trends.  
+- **Product Market Fit**: Identified tech product categories, sales volume, pricing trends, and the popularity of high-end items.  
+- **Seller Analysis**: Examined the number of sellers, revenue distribution, and monthly income trends.  
+- **Delivery Performance**: Measured order-to-delivery time, on-time vs. delayed shipments, and potential delay patterns.  
+
+SQL queries and visualizations helped extract actionable insights, guiding the final recommendation on Eniac's expansion strategy.  
 
 ## Outcome  
 A data-driven recommendation on whether Eniac should sign a 3-year contract with Magist, considering logistics, customer satisfaction, and market potential.  
